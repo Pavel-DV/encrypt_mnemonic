@@ -7,21 +7,37 @@
 <body>
 <div class="container" id="main">
     <form>
-        <div class="form-group">
-            <label for="phrase1">First phrase</label>
+        <label for="phrase1">First Mnemonic code</label>
 
-            <textarea class="form-control mb-3" rows=3 id="phrase1"></textarea>
+        <textarea class="form-control mb-3" rows=3 id="phrase1"></textarea>
 
-            <label for="phrase2">Second phrase</label>
+        <label for="phrase2">Second Mnemonic code</label>
 
-            <textarea class="form-control mb-3" rows=3 id="phrase2"></textarea>
+        <textarea class="form-control mb-3" rows=3 id="phrase2"></textarea>
 
-            <label for="result">Result phrase</label>
+        <label for="result">Result Mnemonic code</label>
 
-            <textarea class="form-control mb-3" rows=3 id="result"></textarea>
+        <textarea class="form-control mb-3" rows=3 id="result" readonly></textarea>
 
-            <button class="btn btn-primary mb-2" id="encrypt">Go</button>
+        <label for="result">Words count</label>
+
+        <div class="form-group mb-3">
+            <div class="btn-group mb-3" role="group">
+                <input type="radio" class="btn-check" id="option-12" checked="checked" name="words_count" value="12">
+                <label class="btn btn-outline-secondary" for="option-12">12</label>
+                <input type="radio" class="btn-check" id="option-15" name="words_count" value="15">
+                <label class="btn btn-outline-secondary" for="option-15">15</label>
+                <input type="radio" class="btn-check" id="option-18" name="words_count" value="18">
+                <label class="btn btn-outline-secondary" for="option-18">18</label>
+                <input type="radio" class="btn-check" id="option-21" name="words_count" value="21">
+                <label class="btn btn-outline-secondary" for="option-21">21</label>
+                <input type="radio" class="btn-check" id="option-24" name="words_count" value="24">
+                <label class="btn btn-outline-secondary" for="option-24">24</label>
+            </div>
         </div>
+
+        <button class="btn btn-primary mb-2" id="encrypt">Go</button>
+
     </form>
 </div>
 
