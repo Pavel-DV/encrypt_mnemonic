@@ -58,12 +58,12 @@ function parse(phrase) {
     const words = getWords();
 
     while (phrase.length > 0) {
-        const fourLetters = phrase.trimLeft().substring(0, 4);
+        const fourLetters = phrase.trimLeft().substring(0, 4).trim();
         const index = words.findIndex(item => item.substring(0, 4) === fourLetters);
 
         if (index === -1) {
             alert('Error');
-            return;
+            throw 'Error';
         }
 
         const wholeWord = words[index];
