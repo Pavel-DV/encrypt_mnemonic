@@ -3,6 +3,8 @@
   "name": "Encrypt mnemonic",
   "description": "Encrypt mnemonic",
   "display": "minimal-ui",
+  "background_color": "#222",
+  "theme_color": "#222",
   "icons": [
     {
       "src": "./favicon.ico",
