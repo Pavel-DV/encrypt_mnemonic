@@ -5,7 +5,7 @@
     {
       "src": "/favicon.ico",
       "type": "image/png",
-      "sizes": "274x274"
+      "sizes": "256x256"
     }
   ],
   "id": "/?source=pwa",
@@ -20,7 +20,7 @@
       "short_name": "Encrypt mnemonic",
       "description": "Encrypt mnemonic",
       "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "/favicon.ico", "sizes": "274x274" }]
+      "icons": [{ "src": "/favicon.ico", "sizes": "256x256" }]
     }
   ],
   "description": "Encrypt mnemonic",
@@ -28,7 +28,7 @@
     {
       "src": "/favicon.ico",
       "type": "image/png",
-      "sizes": "274x274"
+      "sizes": "256x256"
     }
   ]
 }
